@@ -21,15 +21,6 @@
 
 @media (max-width: 48em) {
   .form__text {
-    margin-left: 4.5rem;
-    @include font(300, 2.4rem, 91.52%);
-    span {
-      max-width: 74.063vw;
-    }
-  }
-  .form__text:before {
-    width: 4rem;
-    height: 4rem;
-    border-radius: 1rem;
+    display: none;
   }
 }
