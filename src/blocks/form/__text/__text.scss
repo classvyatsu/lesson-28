@@ -16,11 +16,25 @@
   }
   span {
     margin-left: 1.8rem;
+    span {
+      margin-left: 0;
+    }
   }
 }
 
 @media (max-width: 48em) {
   .form__text {
-    display: none;
+    align-self: flex-start;
+    margin-left: 4.5rem;
+    @include font(300, 2.4rem, 91.52%);
+    span {
+      display: block;
+    }
+  }
+
+  .form__text:before {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;
   }
 }

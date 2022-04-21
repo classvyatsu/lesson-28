@@ -1,0 +1,15 @@
+.footer__text {
+  @include font(500, 1.4rem, 140%);
+  margin-left: -0.3rem;
+
+  span {
+    display: block;
+    margin-bottom: 0.6rem;
+  }
+}
+
+@media (max-width: 48em) {
+  .footer__text {
+    display: none;
+  }
+}

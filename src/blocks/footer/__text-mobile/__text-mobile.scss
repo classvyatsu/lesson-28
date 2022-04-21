@@ -1,0 +1,15 @@
+.footer__text-mobile {
+  display: none;
+}
+
+@media (max-width: 48em) {
+  .footer__text-mobile {
+    display: block;
+    @include font(500, 2.6rem, 140%);
+
+    span {
+      display: block;
+      margin-bottom: 1.2rem;
+    }
+  }
+}
